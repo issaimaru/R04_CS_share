@@ -1,0 +1,21 @@
+/*
+***********************
+@Created by e2011220
+
+@Created at 2022-05-19
+
+***********************
+*/
+#include <stdio.h>
+int main(void){
+  int a,count;
+  printf("整数値:");scanf("%d",&a);
+  for(int i=1;i<=a;i++){
+    if(a%i==0){
+      printf("%d",i);
+      count++;
+    }
+  }
+  printf("約数は%d個です。",count);
+  return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void){
+  int width;
+  puts("左上直角二等辺三角形を作ります。");
+  printf("短辺:");scanf("%d",&width);
+
+  for(int i=width;i>0;i--){
+    for(int j=0;j<i;j++){
+      putchar('*');
+    }
+    putchar('\n');
+  }
+  return 0;
+}

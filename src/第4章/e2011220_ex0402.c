@@ -1,0 +1,16 @@
+/*
+***********************
+@Created by e2011220
+
+@Created at 2022-05-18
+
+***********************
+*/
+#include <stdio.h>
+int main(void){
+  int a,b,sum;
+  printf("整数A:");scanf("%d",&a);
+  printf("整数B:");scanf("%d",&b);
+  for(int i=(a>b)?b:a;i<=(a>b)?a:b;i++)sum+=i;
+  printf("%d以上%d以下の全整数の和は%dです。\n",(a>b)?b:a,(a>b)?a:b,sum);
+}

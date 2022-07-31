@@ -1,0 +1,14 @@
+/*
+***********************
+@Created by e2011220
+
+@Created at 2022-05-18
+
+***********************
+*/
+#include <stdio.h>
+int main(void){
+  unsigned int a;
+  printf("正の整数を入力してください:");scanf("%u",&a);
+  for(int i=a;i>=0;i--)printf("%d ",i);
+}

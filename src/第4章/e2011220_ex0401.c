@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void){
+  while(1){
+    int a,ctn;
+    printf("整数を入力してください:");scanf("%d",&a);
+    if(a==0)puts("その数は0です。");
+    else if(a>0)puts("その数は正です。");
+    else puts("その数は負です。");
+    printf("もう一度?【Yes:0/No:9】:");scanf("%d",&ctn);
+    if(ctn==9)break;
+  }
+}
