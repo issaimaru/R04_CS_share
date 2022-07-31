@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void){
+  int num;
+  puts("ピラミッドを作ります。");
+  printf("何段ですか:");scanf("%d",&num);
+  for(int i=0;i<num;i++){
+    for(int k=0;k<((i-1)*2+1);i++){
+      putchar('*');
+    }
+  }
+
+  return 0;
+}

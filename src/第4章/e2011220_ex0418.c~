@@ -1,0 +1,16 @@
+/*
+***********************
+@Created by e2011220
+
+@Created at 2022-05-18
+
+***********************
+*/
+#include <stdio.h>
+int main(void){
+  int n;
+  printf("nの値:");scanf("%d",&n);
+  for(int i=1;i<=n;i++){
+    printf("%dの2乗は%d",i,i*i);
+  }
+}
