@@ -25,9 +25,5 @@
   $$
   
   $$
-  \therefore H_n=\mathcal{O}(\log{n})　(\because H_n\leq1+\log{n})
-  $$
-  
-  $$
-  \therefore C_n=\mathcal{O}(n\log{n})
+  \therefore C_n=\mathcal{O}(n\log{n})　(\because H_n=\mathcal{O}(\log{n}))
   $$
